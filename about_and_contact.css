@@ -1,0 +1,112 @@
+.about-section {
+    padding: 40px 0;
+}
+
+.about-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.about-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+.about-section h3{
+     margin-top: 30px;
+     color: #333;
+}
+
+.about-section p {
+    margin-bottom: 20px;
+     color: #555;
+}
+
+.contact-section {
+    padding: 40px 0;
+}
+
+.contact-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+     color: #333;
+}
+
+.contact-section .contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-section .contact-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #555;
+    margin-bottom: 10px;
+}
+.contact-section .contact-info i{
+   font-size: 1.5em;
+    color: #3498db;
+}
+.contact-section .contact-info a{
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.contact-section .contact-info a:hover{
+   color: #2980b9;
+}
+.contact-section .contact-form{
+    margin-top: 20px;
+     color: #555;
+}
+.contact-section .contact-form h3{
+   margin-bottom: 20px;
+}
+
+.contact-section .contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-section .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+     color: #555;
+}
+
+.contact-section .contact-form input[type="text"],
+.contact-section .contact-form input[type="email"],
+.contact-section .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact-section .contact-form textarea {
+    resize: vertical;
+}
+
+.contact-section .contact-form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-section .contact-form button[type="submit"]:hover {
+    background-color: #2980b9;
+}

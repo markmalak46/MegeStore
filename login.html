@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+        <link rel="stylesheet" href="./login.css">
+        <title>Mega Store</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <i class="fa-brands fa-maxcdn fa-beat-fade"></i>
+                <h1> Mega Store</h1>
+            </div>
+        </header>
+        <div class="login-container">
+            <form id="loginForm" novalidate>
+                <div class="input">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <span id="nameError" class="error"></span><br>
+                </div>
+
+
+
+                <div class="input">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <span id="emailError" class ="error"></span><br>
+                </div>
+
+                <div class="input">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                    <span id="passwordError" class ="error"></span><br>
+                </div>
+
+                <div class="input">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required>
+                    <span id="confirmPasswordError" class ="error"></span><br>
+
+                </div>
+
+                <div id="error-message"></div>
+
+                <button type="submit" id="subBtn">Login</button>
+            </form>
+        </div>
+        <script src="login.js"></script>
+    </body>
+
+</html>
